@@ -1,0 +1,154 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1759382199",
+  "data": {
+    "annotation": {
+      "id": 13,
+      "result": [
+        {
+          "original_width": 560,
+          "original_height": 406,
+          "image_rotation": 0,
+          "value": {
+            "x": 4.19911009740646,
+            "y": 16.599492151907672,
+            "width": 6.408337508389383,
+            "height": 5.633372262511083,
+            "rotation": 0,
+            "rectanglelabels": [
+              "logo"
+            ]
+          },
+          "id": "0UsdJogOx5",
+          "from_name": "label",
+          "to_name": "image",
+          "type": "rectanglelabels",
+          "origin": "prediction-changed",
+          "score": 0.7574430704116821
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2025-10-02T05:16:39.389870Z",
+      "updated_at": "2025-10-02T05:16:39.389890Z",
+      "draft_created_at": "2025-10-02T05:16:36.985611Z",
+      "lead_time": 10.895,
+      "prediction": {},
+      "result_count": 1,
+      "unique_id": "5c1af537-3f66-4ee6-9c82-70537dd72f1b",
+      "import_id": null,
+      "last_action": null,
+      "bulk_created": false,
+      "task": 52,
+      "project": 2,
+      "completed_by": 3,
+      "updated_by": 3,
+      "parent_prediction": 2,
+      "parent_annotation": null,
+      "last_created_by": null
+    },
+    "project": {
+      "id": 2,
+      "task_number": 20,
+      "finished_task_number": 1,
+      "total_predictions_number": 4,
+      "total_annotations_number": 2,
+      "num_tasks_with_annotations": 1,
+      "useful_annotation_number": 2,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 0,
+      "title": "mktmap_labeler",
+      "description": "",
+      "label_config": "<View>\n  <Image name=\"image\" value=\"$image\" zoom=\"true\" zoomControl=\"true\" rotateControl=\"true\"/>\n  <RectangleLabels name=\"label\" toName=\"image\">\n    \n    \n  <Label value=\"logo\" background=\"#FFA39E\"/></RectangleLabels>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "RectangleLabels",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "logo"
+          ],
+          "labels_attrs": {
+            "logo": {
+              "value": "logo",
+              "background": "#FFA39E"
+            }
+          }
+        }
+      },
+      "label_config_hash": 3027751619859540937,
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": false,
+      "token": "cOa9Sh0qKrb85UsNR2K5CoWcir35j133zSRqfzLR",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "RectangleLabels",
+          "labels": {
+            "logo": 1.0
+          }
+        }
+      },
+      "model_version": "mktmap_yolo_model",
+      "data_types": {
+        "image": "Image"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2025-10-02T03:28:56.346795Z",
+      "updated_at": "2025-10-02T05:15:53.091443Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "pinned_at": null,
+      "custom_task_lock_ttl": null,
+      "search_vector": null,
+      "organization": 1,
+      "created_by": 3
+    },
+    "task": {
+      "id": 52,
+      "data": {
+        "image": "/data/upload/2/59a12ae3-map17.webp"
+      },
+      "meta": {},
+      "created_at": "2025-10-02T03:39:43.103670Z",
+      "updated_at": "2025-10-02T05:16:39.406569Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 1,
+      "total_annotations": 2,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "updated_by": 3,
+      "file_upload": 52,
+      "comment_authors": []
+    }
+  }
+}

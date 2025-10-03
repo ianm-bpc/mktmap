@@ -1,0 +1,87 @@
+{
+  "event": "PROJECT_UPDATED",
+  "job_id": "1759382153",
+  "data": {
+    "project": {
+      "id": 2,
+      "task_number": 20,
+      "finished_task_number": 1,
+      "total_predictions_number": 4,
+      "total_annotations_number": 2,
+      "num_tasks_with_annotations": 1,
+      "useful_annotation_number": 2,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 0,
+      "title": "mktmap_labeler",
+      "description": "",
+      "label_config": "<View>\n  <Image name=\"image\" value=\"$image\" zoom=\"true\" zoomControl=\"true\" rotateControl=\"true\"/>\n  <RectangleLabels name=\"label\" toName=\"image\">\n    \n    \n  <Label value=\"logo\" background=\"#FFA39E\"/></RectangleLabels>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "RectangleLabels",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "logo"
+          ],
+          "labels_attrs": {
+            "logo": {
+              "value": "logo",
+              "background": "#FFA39E"
+            }
+          }
+        }
+      },
+      "label_config_hash": 3027751619859540937,
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": false,
+      "token": "cOa9Sh0qKrb85UsNR2K5CoWcir35j133zSRqfzLR",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "RectangleLabels",
+          "labels": {
+            "logo": 1.0
+          }
+        }
+      },
+      "model_version": "mktmap_yolo_model",
+      "data_types": {
+        "image": "Image"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2025-10-02T03:28:56.346795Z",
+      "updated_at": "2025-10-02T05:15:53.091443Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "pinned_at": null,
+      "custom_task_lock_ttl": null,
+      "search_vector": null,
+      "organization": 1,
+      "created_by": 3
+    }
+  }
+}
